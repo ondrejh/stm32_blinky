@@ -1,0 +1,14 @@
+*.elf
+*.hex
+src/*.d
+src/*.o
+system/src/stm32f0-stdperiph/*.d
+system/src/stm32f0-stdperiph/*.o
+system/src/newlib/*.o
+system/src/newlib/*.d
+system/src/diag/*.d
+system/src/diag/*.o
+system/src/cortexm/*.d
+system/src/cortexm/*.o
+system/src/cmsis/*.d
+system/src/cmsis/*.o

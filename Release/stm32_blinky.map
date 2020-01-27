@@ -92,8 +92,6 @@ Discarded input sections
                 0x0000000000000000       0x38 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
  .text.RCC_USBCLKConfig
                 0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
- .text.RCC_GetClocksFreq
-                0x0000000000000000      0x174 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
  .text.RCC_RTCCLKConfig
                 0x0000000000000000       0x10 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
  .text.RCC_RTCCLKCmd
@@ -101,8 +99,6 @@ Discarded input sections
  .text.RCC_BackupResetCmd
                 0x0000000000000000       0x24 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
  .text.RCC_APB2PeriphClockCmd
-                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
- .text.RCC_APB1PeriphClockCmd
                 0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
  .text.RCC_AHBPeriphResetCmd
                 0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
@@ -122,8 +118,99 @@ Discarded input sections
                 0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
  .text.RCC_ClearITPendingBit
                 0x0000000000000000        0xc ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
- .data.APBAHBPrescTable
-                0x0000000000000000       0x10 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .text          0x0000000000000000        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .data          0x0000000000000000        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .bss           0x0000000000000000        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_DeInit
+                0x0000000000000000       0xe0 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_ClockInit
+                0x0000000000000000       0x20 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_ClockStructInit
+                0x0000000000000000        0xc ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_DirectionModeCmd
+                0x0000000000000000       0x12 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_OverSampling8Cmd
+                0x0000000000000000       0x1c ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_OneBitMethodCmd
+                0x0000000000000000       0x1c ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_MSBFirstCmd
+                0x0000000000000000       0x1c ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_DataInvCmd
+                0x0000000000000000       0x1c ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_InvPinCmd
+                0x0000000000000000       0x12 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_SWAPPinCmd
+                0x0000000000000000       0x1c ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_ReceiverTimeOutCmd
+                0x0000000000000000       0x1c ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_SetReceiverTimeOut
+                0x0000000000000000       0x10 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_SetPrescaler
+                0x0000000000000000       0x10 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_STOPModeCmd
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_StopModeWakeUpSourceConfig
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_AutoBaudRateCmd
+                0x0000000000000000       0x1c ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_AutoBaudRateConfig
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_ReceiveData
+                0x0000000000000000        0x8 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_SetAddress
+                0x0000000000000000       0x12 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_MuteModeCmd
+                0x0000000000000000       0x1c ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_MuteModeWakeUpConfig
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_AddressDetectionConfig
+                0x0000000000000000       0x10 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_LINBreakDetectLengthConfig
+                0x0000000000000000       0x10 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_LINCmd
+                0x0000000000000000       0x1c ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_HalfDuplexCmd
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_SetGuardTime
+                0x0000000000000000       0x10 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_SmartCardCmd
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_SmartCardNACKCmd
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_SetAutoRetryCount
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_SetBlockLength
+                0x0000000000000000       0x12 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_IrDAConfig
+                0x0000000000000000       0x10 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_IrDACmd
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_DECmd
+                0x0000000000000000       0x1c ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_DEPolarityConfig
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_SetDEAssertionTime
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_SetDEDeassertionTime
+                0x0000000000000000       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_DMACmd
+                0x0000000000000000       0x12 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_DMAReceptionErrorConfig
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_ITConfig
+                0x0000000000000000       0x2e ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_RequestCmd
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_OverrunDetectionConfig
+                0x0000000000000000       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_GetFlagStatus
+                0x0000000000000000        0xc ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_ClearFlag
+                0x0000000000000000        0x4 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_GetITStatus
+                0x0000000000000000       0x38 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .text.USART_ClearITPendingBit
+                0x0000000000000000        0xa ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
  .text          0x0000000000000000        0x0 ./system/src/newlib/_cxx.o
  .data          0x0000000000000000        0x0 ./system/src/newlib/_cxx.o
  .bss           0x0000000000000000        0x0 ./system/src/newlib/_cxx.o
@@ -285,6 +372,7 @@ Linker script and memory map
 
 LOAD ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
 LOAD ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+LOAD ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
 LOAD ./system/src/newlib/_cxx.o
 LOAD ./system/src/newlib/_exit.o
 LOAD ./system/src/newlib/_sbrk.o
@@ -318,7 +406,7 @@ END GROUP
                 0x0000000020003c00                __Main_Stack_Limit = (__stack - __Main_Stack_Size)
                 [!provide]                        PROVIDE (_Main_Stack_Limit = __Main_Stack_Limit)
                 0x0000000000000100                _Minimum_Stack_Size = 0x100
-                0x0000000020000024                PROVIDE (_Heap_Begin = _end_noinit)
+                0x0000000020000034                PROVIDE (_Heap_Begin = _end_noinit)
                 0x0000000020003c00                PROVIDE (_Heap_Limit = (__stack - __Main_Stack_Size))
 
 .isr_vector     0x0000000008000000      0x1aa
@@ -391,16 +479,16 @@ END GROUP
 
 .inits          0x00000000080001ac       0x28
                 0x00000000080001ac                __data_regions_array_start = .
-                0x00000000080001ac        0x4 LONG 0x8000654 LOADADDR (.data)
+                0x00000000080001ac        0x4 LONG 0x8000968 LOADADDR (.data)
                 0x00000000080001b0        0x4 LONG 0x20000000 ADDR (.data)
-                0x00000000080001b4        0x4 LONG 0x2000001c (ADDR (.data) + SIZEOF (.data))
-                0x00000000080001b8        0x4 LONG 0x8000654 LOADADDR (.data_CCMRAM)
+                0x00000000080001b4        0x4 LONG 0x2000002c (ADDR (.data) + SIZEOF (.data))
+                0x00000000080001b8        0x4 LONG 0x8000968 LOADADDR (.data_CCMRAM)
                 0x00000000080001bc        0x4 LONG 0x0 ADDR (.data_CCMRAM)
                 0x00000000080001c0        0x4 LONG 0x0 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
                 0x00000000080001c4                __data_regions_array_end = .
                 0x00000000080001c4                __bss_regions_array_start = .
-                0x00000000080001c4        0x4 LONG 0x2000001c ADDR (.bss)
-                0x00000000080001c8        0x4 LONG 0x20000024 (ADDR (.bss) + SIZEOF (.bss))
+                0x00000000080001c4        0x4 LONG 0x2000002c ADDR (.bss)
+                0x00000000080001c8        0x4 LONG 0x20000034 (ADDR (.bss) + SIZEOF (.bss))
                 0x00000000080001cc        0x4 LONG 0x0 ADDR (.bss_CCMRAM)
                 0x00000000080001d0        0x4 LONG 0x0 (ADDR (.bss_CCMRAM) + SIZEOF (.bss_CCMRAM))
                 0x00000000080001d4                __bss_regions_array_end = .
@@ -426,7 +514,7 @@ END GROUP
 .flashtext
  *(.flashtext .flashtext.*)
 
-.text           0x00000000080001d4      0x480
+.text           0x00000000080001d4      0x794
  *(.text .text.*)
  .text.GPIO_Init
                 0x00000000080001d4       0x76 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
@@ -441,153 +529,175 @@ END GROUP
                 0x000000000800025a        0x4 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
                 0x000000000800025a                GPIO_ResetBits
  *fill*         0x000000000800025e        0x2 
+ .text.RCC_GetClocksFreq
+                0x0000000008000260      0x174 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+                0x0000000008000260                RCC_GetClocksFreq
  .text.RCC_AHBPeriphClockCmd
-                0x0000000008000260       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
-                0x0000000008000260                RCC_AHBPeriphClockCmd
- .text._exit    0x0000000008000278        0x6 ./system/src/newlib/_exit.o
-                0x0000000008000278                _exit
- *fill*         0x000000000800027e        0x2 
+                0x00000000080003d4       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+                0x00000000080003d4                RCC_AHBPeriphClockCmd
+ .text.RCC_APB1PeriphClockCmd
+                0x00000000080003ec       0x18 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+                0x00000000080003ec                RCC_APB1PeriphClockCmd
+ .text.USART_Init
+                0x0000000008000404       0xac ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+                0x0000000008000404                USART_Init
+ .text.USART_StructInit
+                0x00000000080004b0       0x16 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+                0x00000000080004b0                USART_StructInit
+ .text.USART_Cmd
+                0x00000000080004c6       0x14 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+                0x00000000080004c6                USART_Cmd
+ .text.USART_SendData
+                0x00000000080004da        0x8 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+                0x00000000080004da                USART_SendData
+ .text._exit    0x00000000080004e2        0x6 ./system/src/newlib/_exit.o
+                0x00000000080004e2                _exit
  .text.__initialize_args
-                0x0000000008000280       0x10 ./system/src/newlib/_syscalls.o
-                0x0000000008000280                __initialize_args
+                0x00000000080004e8       0x10 ./system/src/newlib/_syscalls.o
+                0x00000000080004e8                __initialize_args
  .text.__initialize_hardware_early
-                0x0000000008000290        0x8 ./system/src/cortexm/_initialize_hardware.o
-                0x0000000008000290                __initialize_hardware_early
+                0x00000000080004f8        0x8 ./system/src/cortexm/_initialize_hardware.o
+                0x00000000080004f8                __initialize_hardware_early
  .text.__initialize_hardware
-                0x0000000008000298        0x8 ./system/src/cortexm/_initialize_hardware.o
-                0x0000000008000298                __initialize_hardware
+                0x0000000008000500        0x8 ./system/src/cortexm/_initialize_hardware.o
+                0x0000000008000500                __initialize_hardware
  .text.__reset_hardware
-                0x00000000080002a0       0x1c ./system/src/cortexm/_reset_hardware.o
-                0x00000000080002a0                __reset_hardware
+                0x0000000008000508       0x1c ./system/src/cortexm/_reset_hardware.o
+                0x0000000008000508                __reset_hardware
  .text.SystemInit
-                0x00000000080002bc      0x100 ./system/src/cmsis/system_stm32f0xx.o
-                0x00000000080002bc                SystemInit
+                0x0000000008000524      0x100 ./system/src/cmsis/system_stm32f0xx.o
+                0x0000000008000524                SystemInit
  .text.SystemCoreClockUpdate
-                0x00000000080003bc       0x64 ./system/src/cmsis/system_stm32f0xx.o
-                0x00000000080003bc                SystemCoreClockUpdate
+                0x0000000008000624       0x64 ./system/src/cmsis/system_stm32f0xx.o
+                0x0000000008000624                SystemCoreClockUpdate
  .text.init_led_output
-                0x0000000008000420       0x34 ./src/main.o
-                0x0000000008000420                init_led_output
+                0x0000000008000688       0x34 ./src/main.o
+                0x0000000008000688                init_led_output
  .text.init_button_input
-                0x0000000008000454       0x24 ./src/main.o
-                0x0000000008000454                init_button_input
+                0x00000000080006bc       0x24 ./src/main.o
+                0x00000000080006bc                init_button_input
+ .text.init_uart
+                0x00000000080006e0       0x74 ./src/main.o
+                0x00000000080006e0                init_uart
  .text.startup.main
-                0x0000000008000478       0x54 ./src/main.o
-                0x0000000008000478                main
+                0x0000000008000754       0x8c ./src/main.o
+                0x0000000008000754                main
  .text.timer_init
-                0x00000000080004cc       0x44 ./src/timer.o
-                0x00000000080004cc                timer_init
- .text.sleep    0x0000000008000510       0x14 ./src/timer.o
-                0x0000000008000510                sleep
+                0x00000000080007e0       0x44 ./src/timer.o
+                0x00000000080007e0                timer_init
+ .text.sleep    0x0000000008000824       0x14 ./src/timer.o
+                0x0000000008000824                sleep
  .text.timer_tick
-                0x0000000008000524       0x10 ./src/timer.o
-                0x0000000008000524                timer_tick
+                0x0000000008000838       0x10 ./src/timer.o
+                0x0000000008000838                timer_tick
  .text.SysTick_Handler
-                0x0000000008000534        0x8 ./src/timer.o
-                0x0000000008000534                SysTick_Handler
- .text          0x000000000800053c      0x114 /home/ondrej/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
-                0x000000000800053c                __udivsi3
-                0x000000000800053c                __aeabi_uidiv
-                0x0000000008000648                __aeabi_uidivmod
- .text          0x0000000008000650        0x4 /home/ondrej/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
-                0x0000000008000650                __aeabi_ldiv0
-                0x0000000008000650                __aeabi_idiv0
+                0x0000000008000848        0x8 ./src/timer.o
+                0x0000000008000848                SysTick_Handler
+ .text          0x0000000008000850      0x114 /home/ondrej/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+                0x0000000008000850                __udivsi3
+                0x0000000008000850                __aeabi_uidiv
+                0x000000000800095c                __aeabi_uidivmod
+ .text          0x0000000008000964        0x4 /home/ondrej/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x0000000008000964                __aeabi_ldiv0
+                0x0000000008000964                __aeabi_idiv0
  *(.rodata .rodata.* .constdata .constdata.*)
  *(vtable)
  *(.eh_frame*)
  *(.glue_7)
- .glue_7        0x0000000008000654        0x0 linker stubs
+ .glue_7        0x0000000008000968        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008000654        0x0 linker stubs
+ .glue_7t       0x0000000008000968        0x0 linker stubs
 
-.vfp11_veneer   0x0000000008000654        0x0
- .vfp11_veneer  0x0000000008000654        0x0 linker stubs
+.vfp11_veneer   0x0000000008000968        0x0
+ .vfp11_veneer  0x0000000008000968        0x0 linker stubs
 
-.v4_bx          0x0000000008000654        0x0
- .v4_bx         0x0000000008000654        0x0 linker stubs
+.v4_bx          0x0000000008000968        0x0
+ .v4_bx         0x0000000008000968        0x0 linker stubs
 
-.iplt           0x0000000008000654        0x0
- .iplt          0x0000000008000654        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+.iplt           0x0000000008000968        0x0
+ .iplt          0x0000000008000968        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
 
-.rel.dyn        0x0000000008000654        0x0
- .rel.iplt      0x0000000008000654        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+.rel.dyn        0x0000000008000968        0x0
+ .rel.iplt      0x0000000008000968        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000008000654                . = ALIGN (0x4)
-                0x0000000008000654                __exidx_start = .
+                0x0000000008000968                . = ALIGN (0x4)
+                0x0000000008000968                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000008000654                __exidx_end = .
-                0x0000000008000654                . = ALIGN (0x4)
-                0x0000000008000654                _etext = .
-                0x0000000008000654                __etext = .
+                0x0000000008000968                __exidx_end = .
+                0x0000000008000968                . = ALIGN (0x4)
+                0x0000000008000968                _etext = .
+                0x0000000008000968                __etext = .
 
-.data_CCMRAM    0x0000000000000000        0x0 load address 0x0000000008000654
+.data_CCMRAM    0x0000000000000000        0x0 load address 0x0000000008000968
  FILL mask 0xff
  *(.data.CCMRAM .data.CCMRAM.*)
                 0x0000000000000000                . = ALIGN (0x4)
-                0x0000000008000654                _sidata = LOADADDR (.data)
+                0x0000000008000968                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x1c load address 0x0000000008000654
+.data           0x0000000020000000       0x2c load address 0x0000000008000968
  FILL mask 0xff
                 0x0000000020000000                _sdata = .
                 0x0000000020000000                __data_start__ = .
  *(.data_begin .data_begin.*)
  *(.data .data.*)
+ .data.APBAHBPrescTable
+                0x0000000020000000       0x10 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
  .data.argv.4354
-                0x0000000020000000        0x8 ./system/src/newlib/_syscalls.o
+                0x0000000020000010        0x8 ./system/src/newlib/_syscalls.o
  .data.AHBPrescTable
-                0x0000000020000008       0x10 ./system/src/cmsis/system_stm32f0xx.o
-                0x0000000020000008                AHBPrescTable
+                0x0000000020000018       0x10 ./system/src/cmsis/system_stm32f0xx.o
+                0x0000000020000018                AHBPrescTable
  .data.SystemCoreClock
-                0x0000000020000018        0x4 ./system/src/cmsis/system_stm32f0xx.o
-                0x0000000020000018                SystemCoreClock
+                0x0000000020000028        0x4 ./system/src/cmsis/system_stm32f0xx.o
+                0x0000000020000028                SystemCoreClock
  *(.data_end .data_end.*)
-                0x000000002000001c                . = ALIGN (0x4)
-                0x000000002000001c                _edata = .
-                0x000000002000001c                __data_end__ = .
+                0x000000002000002c                . = ALIGN (0x4)
+                0x000000002000002c                _edata = .
+                0x000000002000002c                __data_end__ = .
 
-.igot.plt       0x000000002000001c        0x0 load address 0x0000000008000670
- .igot.plt      0x000000002000001c        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
+.igot.plt       0x000000002000002c        0x0 load address 0x0000000008000994
+ .igot.plt      0x000000002000002c        0x0 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
 
 .bss_CCMRAM     0x0000000000000000        0x0
  *(.bss.CCMRAM .bss.CCMRAM.*)
 
-.bss            0x000000002000001c        0x8
-                0x000000002000001c                __bss_start__ = .
-                0x000000002000001c                _sbss = .
+.bss            0x000000002000002c        0x8
+                0x000000002000002c                __bss_start__ = .
+                0x000000002000002c                _sbss = .
  *(.bss_begin .bss_begin.*)
  *(.bss .bss.*)
  .bss.name.4353
-                0x000000002000001c        0x1 ./system/src/newlib/_syscalls.o
- *fill*         0x000000002000001d        0x3 
+                0x000000002000002c        0x1 ./system/src/newlib/_syscalls.o
+ *fill*         0x000000002000002d        0x3 
  .bss.millis_value
-                0x0000000020000020        0x4 ./src/timer.o
-                0x0000000020000020                millis_value
+                0x0000000020000030        0x4 ./src/timer.o
+                0x0000000020000030                millis_value
  *(COMMON)
  *(.bss_end .bss_end.*)
-                0x0000000020000024                . = ALIGN (0x4)
-                0x0000000020000024                __bss_end__ = .
-                0x0000000020000024                _ebss = .
+                0x0000000020000034                . = ALIGN (0x4)
+                0x0000000020000034                __bss_end__ = .
+                0x0000000020000034                _ebss = .
 
 .noinit_CCMRAM
  *(.noinit.CCMRAM .noinit.CCMRAM.*)
 
-.noinit         0x0000000020000024        0x0
-                0x0000000020000024                _noinit = .
+.noinit         0x0000000020000034        0x0
+                0x0000000020000034                _noinit = .
  *(.noinit .noinit.*)
-                0x0000000020000024                . = ALIGN (0x4)
-                0x0000000020000024                _end_noinit = .
+                0x0000000020000034                . = ALIGN (0x4)
+                0x0000000020000034                _end_noinit = .
                 [!provide]                        PROVIDE (end = _end_noinit)
                 [!provide]                        PROVIDE (_end = _end_noinit)
                 [!provide]                        PROVIDE (__end = _end_noinit)
                 [!provide]                        PROVIDE (__end__ = _end_noinit)
 
-._check_stack   0x0000000020000024      0x100
-                0x0000000020000124                . = (. + _Minimum_Stack_Size)
- *fill*         0x0000000020000024      0x100 
+._check_stack   0x0000000020000034      0x100
+                0x0000000020000134                . = (. + _Minimum_Stack_Size)
+ *fill*         0x0000000020000034      0x100 
 
 .b1text
  *(.b1text)
@@ -637,6 +747,7 @@ END GROUP
  .comment       0x0000000000000000       0x66 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
                                          0x67 (size before relaxing)
  .comment       0x0000000000000066       0x67 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
+ .comment       0x0000000000000066       0x67 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
  .comment       0x0000000000000066       0x67 ./system/src/newlib/_exit.o
  .comment       0x0000000000000066       0x67 ./system/src/newlib/_startup.o
  .comment       0x0000000000000066       0x67 ./system/src/newlib/_syscalls.o
@@ -655,29 +766,31 @@ END GROUP
  .ARM.attributes
                 0x000000000000002c       0x2c ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
  .ARM.attributes
-                0x0000000000000058       0x2c ./system/src/newlib/_exit.o
+                0x0000000000000058       0x2c ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
  .ARM.attributes
-                0x0000000000000084       0x2c ./system/src/newlib/_startup.o
+                0x0000000000000084       0x2c ./system/src/newlib/_exit.o
  .ARM.attributes
-                0x00000000000000b0       0x2c ./system/src/newlib/_syscalls.o
+                0x00000000000000b0       0x2c ./system/src/newlib/_startup.o
  .ARM.attributes
-                0x00000000000000dc       0x2c ./system/src/cortexm/_initialize_hardware.o
+                0x00000000000000dc       0x2c ./system/src/newlib/_syscalls.o
  .ARM.attributes
-                0x0000000000000108       0x2c ./system/src/cortexm/_reset_hardware.o
+                0x0000000000000108       0x2c ./system/src/cortexm/_initialize_hardware.o
  .ARM.attributes
-                0x0000000000000134       0x2c ./system/src/cortexm/exception_handlers.o
+                0x0000000000000134       0x2c ./system/src/cortexm/_reset_hardware.o
  .ARM.attributes
-                0x0000000000000160       0x2c ./system/src/cmsis/system_stm32f0xx.o
+                0x0000000000000160       0x2c ./system/src/cortexm/exception_handlers.o
  .ARM.attributes
-                0x000000000000018c       0x2c ./system/src/cmsis/vectors_stm32f0xx.o
+                0x000000000000018c       0x2c ./system/src/cmsis/system_stm32f0xx.o
  .ARM.attributes
-                0x00000000000001b8       0x2c ./src/main.o
+                0x00000000000001b8       0x2c ./system/src/cmsis/vectors_stm32f0xx.o
  .ARM.attributes
-                0x00000000000001e4       0x2c ./src/timer.o
+                0x00000000000001e4       0x2c ./src/main.o
  .ARM.attributes
-                0x0000000000000210       0x1e /home/ondrej/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+                0x0000000000000210       0x2c ./src/timer.o
  .ARM.attributes
-                0x000000000000022e       0x1e /home/ondrej/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x000000000000023c       0x1e /home/ondrej/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000000000000025a       0x1e /home/ondrej/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
 
 .debug
  *(.debug)
@@ -691,134 +804,143 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x0000000000000000      0x3c8
+.debug_aranges  0x0000000000000000      0x570
  *(.debug_aranges)
  .debug_aranges
                 0x0000000000000000       0x80 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
  .debug_aranges
                 0x0000000000000080      0x160 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
  .debug_aranges
-                0x00000000000001e0       0x28 ./system/src/newlib/_exit.o
+                0x00000000000001e0      0x1a0 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
  .debug_aranges
-                0x0000000000000208       0x40 ./system/src/newlib/_startup.o
+                0x0000000000000380       0x28 ./system/src/newlib/_exit.o
  .debug_aranges
-                0x0000000000000248       0x30 ./system/src/newlib/_syscalls.o
+                0x00000000000003a8       0x40 ./system/src/newlib/_startup.o
  .debug_aranges
-                0x0000000000000278       0x28 ./system/src/cortexm/_initialize_hardware.o
+                0x00000000000003e8       0x30 ./system/src/newlib/_syscalls.o
  .debug_aranges
-                0x00000000000002a0       0x20 ./system/src/cortexm/_reset_hardware.o
+                0x0000000000000418       0x28 ./system/src/cortexm/_initialize_hardware.o
  .debug_aranges
-                0x00000000000002c0       0x50 ./system/src/cortexm/exception_handlers.o
+                0x0000000000000440       0x20 ./system/src/cortexm/_reset_hardware.o
  .debug_aranges
-                0x0000000000000310       0x28 ./system/src/cmsis/system_stm32f0xx.o
+                0x0000000000000460       0x50 ./system/src/cortexm/exception_handlers.o
  .debug_aranges
-                0x0000000000000338       0x20 ./system/src/cmsis/vectors_stm32f0xx.o
+                0x00000000000004b0       0x28 ./system/src/cmsis/system_stm32f0xx.o
  .debug_aranges
-                0x0000000000000358       0x30 ./src/main.o
+                0x00000000000004d8       0x20 ./system/src/cmsis/vectors_stm32f0xx.o
  .debug_aranges
-                0x0000000000000388       0x40 ./src/timer.o
+                0x00000000000004f8       0x38 ./src/main.o
+ .debug_aranges
+                0x0000000000000530       0x40 ./src/timer.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0x4f3c
+.debug_info     0x0000000000000000     0x6318
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0x720 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
  .debug_info    0x0000000000000720      0xb8c ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
- .debug_info    0x00000000000012ac      0x9f1 ./system/src/newlib/_exit.o
- .debug_info    0x0000000000001c9d      0x44c ./system/src/newlib/_startup.o
- .debug_info    0x00000000000020e9      0xab5 ./system/src/newlib/_syscalls.o
- .debug_info    0x0000000000002b9e       0xe8 ./system/src/cortexm/_initialize_hardware.o
- .debug_info    0x0000000000002c86      0x1c6 ./system/src/cortexm/_reset_hardware.o
- .debug_info    0x0000000000002e4c      0xaaa ./system/src/cortexm/exception_handlers.o
- .debug_info    0x00000000000038f6      0x33a ./system/src/cmsis/system_stm32f0xx.o
- .debug_info    0x0000000000003c30       0xca ./system/src/cmsis/vectors_stm32f0xx.o
- .debug_info    0x0000000000003cfa      0xd81 ./src/main.o
- .debug_info    0x0000000000004a7b      0x4c1 ./src/timer.o
+ .debug_info    0x00000000000012ac     0x10aa ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .debug_info    0x0000000000002356      0x9f1 ./system/src/newlib/_exit.o
+ .debug_info    0x0000000000002d47      0x44c ./system/src/newlib/_startup.o
+ .debug_info    0x0000000000003193      0xab5 ./system/src/newlib/_syscalls.o
+ .debug_info    0x0000000000003c48       0xe8 ./system/src/cortexm/_initialize_hardware.o
+ .debug_info    0x0000000000003d30      0x1c6 ./system/src/cortexm/_reset_hardware.o
+ .debug_info    0x0000000000003ef6      0xaaa ./system/src/cortexm/exception_handlers.o
+ .debug_info    0x00000000000049a0      0x33a ./system/src/cmsis/system_stm32f0xx.o
+ .debug_info    0x0000000000004cda       0xca ./system/src/cmsis/vectors_stm32f0xx.o
+ .debug_info    0x0000000000004da4     0x10b3 ./src/main.o
+ .debug_info    0x0000000000005e57      0x4c1 ./src/timer.o
 
-.debug_abbrev   0x0000000000000000     0x15b5
+.debug_abbrev   0x0000000000000000     0x17bc
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0x22c ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
  .debug_abbrev  0x000000000000022c      0x281 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
- .debug_abbrev  0x00000000000004ad      0x243 ./system/src/newlib/_exit.o
- .debug_abbrev  0x00000000000006f0      0x19d ./system/src/newlib/_startup.o
- .debug_abbrev  0x000000000000088d      0x26a ./system/src/newlib/_syscalls.o
- .debug_abbrev  0x0000000000000af7       0x86 ./system/src/cortexm/_initialize_hardware.o
- .debug_abbrev  0x0000000000000b7d      0x11c ./system/src/cortexm/_reset_hardware.o
- .debug_abbrev  0x0000000000000c99      0x22d ./system/src/cortexm/exception_handlers.o
- .debug_abbrev  0x0000000000000ec6      0x197 ./system/src/cmsis/system_stm32f0xx.o
- .debug_abbrev  0x000000000000105d       0xa2 ./system/src/cmsis/vectors_stm32f0xx.o
- .debug_abbrev  0x00000000000010ff      0x298 ./src/main.o
- .debug_abbrev  0x0000000000001397      0x21e ./src/timer.o
+ .debug_abbrev  0x00000000000004ad      0x207 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .debug_abbrev  0x00000000000006b4      0x243 ./system/src/newlib/_exit.o
+ .debug_abbrev  0x00000000000008f7      0x19d ./system/src/newlib/_startup.o
+ .debug_abbrev  0x0000000000000a94      0x26a ./system/src/newlib/_syscalls.o
+ .debug_abbrev  0x0000000000000cfe       0x86 ./system/src/cortexm/_initialize_hardware.o
+ .debug_abbrev  0x0000000000000d84      0x11c ./system/src/cortexm/_reset_hardware.o
+ .debug_abbrev  0x0000000000000ea0      0x22d ./system/src/cortexm/exception_handlers.o
+ .debug_abbrev  0x00000000000010cd      0x197 ./system/src/cmsis/system_stm32f0xx.o
+ .debug_abbrev  0x0000000000001264       0xa2 ./system/src/cmsis/vectors_stm32f0xx.o
+ .debug_abbrev  0x0000000000001306      0x298 ./src/main.o
+ .debug_abbrev  0x000000000000159e      0x21e ./src/timer.o
 
-.debug_line     0x0000000000000000     0x27be
+.debug_line     0x0000000000000000     0x3575
  *(.debug_line)
  .debug_line    0x0000000000000000      0x4c4 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
  .debug_line    0x00000000000004c4      0xcfe ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
- .debug_line    0x00000000000011c2      0x226 ./system/src/newlib/_exit.o
- .debug_line    0x00000000000013e8      0x2cf ./system/src/newlib/_startup.o
- .debug_line    0x00000000000016b7      0x26e ./system/src/newlib/_syscalls.o
- .debug_line    0x0000000000001925      0x13a ./system/src/cortexm/_initialize_hardware.o
- .debug_line    0x0000000000001a5f      0x16a ./system/src/cortexm/_reset_hardware.o
- .debug_line    0x0000000000001bc9      0x26f ./system/src/cortexm/exception_handlers.o
- .debug_line    0x0000000000001e38      0x333 ./system/src/cmsis/system_stm32f0xx.o
- .debug_line    0x000000000000216b       0x6f ./system/src/cmsis/vectors_stm32f0xx.o
- .debug_line    0x00000000000021da      0x3b8 ./src/main.o
- .debug_line    0x0000000000002592      0x22c ./src/timer.o
+ .debug_line    0x00000000000011c2      0xd15 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .debug_line    0x0000000000001ed7      0x226 ./system/src/newlib/_exit.o
+ .debug_line    0x00000000000020fd      0x2cf ./system/src/newlib/_startup.o
+ .debug_line    0x00000000000023cc      0x26e ./system/src/newlib/_syscalls.o
+ .debug_line    0x000000000000263a      0x13a ./system/src/cortexm/_initialize_hardware.o
+ .debug_line    0x0000000000002774      0x16a ./system/src/cortexm/_reset_hardware.o
+ .debug_line    0x00000000000028de      0x26f ./system/src/cortexm/exception_handlers.o
+ .debug_line    0x0000000000002b4d      0x333 ./system/src/cmsis/system_stm32f0xx.o
+ .debug_line    0x0000000000002e80       0x6f ./system/src/cmsis/vectors_stm32f0xx.o
+ .debug_line    0x0000000000002eef      0x45a ./src/main.o
+ .debug_line    0x0000000000003349      0x22c ./src/timer.o
 
-.debug_frame    0x0000000000000000      0x724
+.debug_frame    0x0000000000000000      0xa8c
  *(.debug_frame)
  .debug_frame   0x0000000000000000      0x108 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
  .debug_frame   0x0000000000000108      0x2c4 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
- .debug_frame   0x00000000000003cc       0x40 ./system/src/newlib/_exit.o
- .debug_frame   0x000000000000040c       0x88 ./system/src/newlib/_startup.o
- .debug_frame   0x0000000000000494       0x50 ./system/src/newlib/_syscalls.o
- .debug_frame   0x00000000000004e4       0x40 ./system/src/cortexm/_initialize_hardware.o
- .debug_frame   0x0000000000000524       0x20 ./system/src/cortexm/_reset_hardware.o
- .debug_frame   0x0000000000000544       0x80 ./system/src/cortexm/exception_handlers.o
- .debug_frame   0x00000000000005c4       0x48 ./system/src/cmsis/system_stm32f0xx.o
- .debug_frame   0x000000000000060c       0x20 ./system/src/cmsis/vectors_stm32f0xx.o
- .debug_frame   0x000000000000062c       0x68 ./src/main.o
- .debug_frame   0x0000000000000694       0x70 ./src/timer.o
- .debug_frame   0x0000000000000704       0x20 /home/ondrej/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000000000003cc      0x34c ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .debug_frame   0x0000000000000718       0x40 ./system/src/newlib/_exit.o
+ .debug_frame   0x0000000000000758       0x88 ./system/src/newlib/_startup.o
+ .debug_frame   0x00000000000007e0       0x50 ./system/src/newlib/_syscalls.o
+ .debug_frame   0x0000000000000830       0x40 ./system/src/cortexm/_initialize_hardware.o
+ .debug_frame   0x0000000000000870       0x20 ./system/src/cortexm/_reset_hardware.o
+ .debug_frame   0x0000000000000890       0x80 ./system/src/cortexm/exception_handlers.o
+ .debug_frame   0x0000000000000910       0x48 ./system/src/cmsis/system_stm32f0xx.o
+ .debug_frame   0x0000000000000958       0x20 ./system/src/cmsis/vectors_stm32f0xx.o
+ .debug_frame   0x0000000000000978       0x84 ./src/main.o
+ .debug_frame   0x00000000000009fc       0x70 ./src/timer.o
+ .debug_frame   0x0000000000000a6c       0x20 /home/ondrej/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
 
-.debug_str      0x0000000000000000     0x15e1
+.debug_str      0x0000000000000000     0x1ce1
  *(.debug_str)
  .debug_str     0x0000000000000000      0x4c3 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
                                         0x509 (size before relaxing)
  .debug_str     0x00000000000004c3      0x5c7 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
                                         0x806 (size before relaxing)
- .debug_str     0x0000000000000a8a      0x431 ./system/src/newlib/_exit.o
+ .debug_str     0x0000000000000a8a      0x6f0 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+                                        0xa33 (size before relaxing)
+ .debug_str     0x000000000000117a      0x431 ./system/src/newlib/_exit.o
                                         0x609 (size before relaxing)
- .debug_str     0x0000000000000ebb      0x16d ./system/src/newlib/_startup.o
+ .debug_str     0x00000000000015ab      0x16d ./system/src/newlib/_startup.o
                                         0x33b (size before relaxing)
- .debug_str     0x0000000000001028       0x8a ./system/src/newlib/_syscalls.o
+ .debug_str     0x0000000000001718       0x8a ./system/src/newlib/_syscalls.o
                                         0x63a (size before relaxing)
- .debug_str     0x00000000000010b2       0x5e ./system/src/cortexm/_initialize_hardware.o
+ .debug_str     0x00000000000017a2       0x5e ./system/src/cortexm/_initialize_hardware.o
                                         0x244 (size before relaxing)
- .debug_str     0x0000000000001110       0x65 ./system/src/cortexm/_reset_hardware.o
+ .debug_str     0x0000000000001800       0x65 ./system/src/cortexm/_reset_hardware.o
                                         0x23e (size before relaxing)
- .debug_str     0x0000000000001175       0xb0 ./system/src/cortexm/exception_handlers.o
+ .debug_str     0x0000000000001865       0xb0 ./system/src/cortexm/exception_handlers.o
                                         0x67e (size before relaxing)
- .debug_str     0x0000000000001225       0x57 ./system/src/cmsis/system_stm32f0xx.o
+ .debug_str     0x0000000000001915       0x57 ./system/src/cmsis/system_stm32f0xx.o
                                         0x2e2 (size before relaxing)
- .debug_str     0x000000000000127c       0x56 ./system/src/cmsis/vectors_stm32f0xx.o
+ .debug_str     0x000000000000196c       0x56 ./system/src/cmsis/vectors_stm32f0xx.o
                                         0x1f1 (size before relaxing)
- .debug_str     0x00000000000012d2       0x6a ./src/main.o
-                                        0x81f (size before relaxing)
- .debug_str     0x000000000000133c      0x2a5 ./src/timer.o
+ .debug_str     0x00000000000019c2       0x84 ./src/main.o
+                                        0x924 (size before relaxing)
+ .debug_str     0x0000000000001a46      0x29b ./src/timer.o
                                         0x4cf (size before relaxing)
 
-.debug_loc      0x0000000000000000     0x1110
+.debug_loc      0x0000000000000000     0x19a2
  *(.debug_loc)
  .debug_loc     0x0000000000000000      0x38e ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
  .debug_loc     0x000000000000038e      0x81d ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
- .debug_loc     0x0000000000000bab       0x25 ./system/src/newlib/_exit.o
- .debug_loc     0x0000000000000bd0      0x322 ./system/src/newlib/_startup.o
- .debug_loc     0x0000000000000ef2       0x6f ./system/src/newlib/_syscalls.o
- .debug_loc     0x0000000000000f61       0x2a ./system/src/cortexm/exception_handlers.o
- .debug_loc     0x0000000000000f8b      0x121 ./system/src/cmsis/system_stm32f0xx.o
- .debug_loc     0x00000000000010ac       0x64 ./src/timer.o
+ .debug_loc     0x0000000000000bab      0x892 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .debug_loc     0x000000000000143d       0x25 ./system/src/newlib/_exit.o
+ .debug_loc     0x0000000000001462      0x322 ./system/src/newlib/_startup.o
+ .debug_loc     0x0000000000001784       0x6f ./system/src/newlib/_syscalls.o
+ .debug_loc     0x00000000000017f3       0x2a ./system/src/cortexm/exception_handlers.o
+ .debug_loc     0x000000000000181d      0x121 ./system/src/cmsis/system_stm32f0xx.o
+ .debug_loc     0x000000000000193e       0x64 ./src/timer.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -836,16 +958,17 @@ END GROUP
  *(.debug_varnames)
 OUTPUT(stm32_blinky.elf elf32-littlearm)
 
-.debug_ranges   0x0000000000000000      0x3d8
+.debug_ranges   0x0000000000000000      0x570
  .debug_ranges  0x0000000000000000       0x70 ./system/src/stm32f0-stdperiph/stm32f0xx_gpio.o
  .debug_ranges  0x0000000000000070      0x150 ./system/src/stm32f0-stdperiph/stm32f0xx_rcc.o
- .debug_ranges  0x00000000000001c0       0x18 ./system/src/newlib/_exit.o
- .debug_ranges  0x00000000000001d8       0x98 ./system/src/newlib/_startup.o
- .debug_ranges  0x0000000000000270       0x20 ./system/src/newlib/_syscalls.o
- .debug_ranges  0x0000000000000290       0x18 ./system/src/cortexm/_initialize_hardware.o
- .debug_ranges  0x00000000000002a8       0x10 ./system/src/cortexm/_reset_hardware.o
- .debug_ranges  0x00000000000002b8       0x40 ./system/src/cortexm/exception_handlers.o
- .debug_ranges  0x00000000000002f8       0x48 ./system/src/cmsis/system_stm32f0xx.o
- .debug_ranges  0x0000000000000340       0x10 ./system/src/cmsis/vectors_stm32f0xx.o
- .debug_ranges  0x0000000000000350       0x20 ./src/main.o
- .debug_ranges  0x0000000000000370       0x68 ./src/timer.o
+ .debug_ranges  0x00000000000001c0      0x190 ./system/src/stm32f0-stdperiph/stm32f0xx_usart.o
+ .debug_ranges  0x0000000000000350       0x18 ./system/src/newlib/_exit.o
+ .debug_ranges  0x0000000000000368       0x98 ./system/src/newlib/_startup.o
+ .debug_ranges  0x0000000000000400       0x20 ./system/src/newlib/_syscalls.o
+ .debug_ranges  0x0000000000000420       0x18 ./system/src/cortexm/_initialize_hardware.o
+ .debug_ranges  0x0000000000000438       0x10 ./system/src/cortexm/_reset_hardware.o
+ .debug_ranges  0x0000000000000448       0x40 ./system/src/cortexm/exception_handlers.o
+ .debug_ranges  0x0000000000000488       0x48 ./system/src/cmsis/system_stm32f0xx.o
+ .debug_ranges  0x00000000000004d0       0x10 ./system/src/cmsis/vectors_stm32f0xx.o
+ .debug_ranges  0x00000000000004e0       0x28 ./src/main.o
+ .debug_ranges  0x0000000000000508       0x68 ./src/timer.o
